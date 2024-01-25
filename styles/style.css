@@ -56,7 +56,7 @@ body{
     justify-content: space-between;
     border: solid 1px var(--cor-tercearia); 
     gap: 80px;
-    height: 82vh;
+    height: 83.5vh;
 }
 
 .apresentacao__conteudo{
