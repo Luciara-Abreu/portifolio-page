@@ -189,7 +189,8 @@ align-items: center;
 .apresentacao__conteudo__idiomas{
   padding: 15px 0 15px 0;
   font-size: var(--font-size-title);
-  font-family: var(--font-primaria);  
+  font-family: var(--font-primaria);    
+  border-bottom: 1.5px solid var(--cor-tercearia);
 }
 
 
@@ -232,7 +233,7 @@ ul, ol {
     padding: 10% 0 0 0; 
   }
   .apresentacao__conteudo{
-    width: 80%;
+    width: 89%;
   }
   .apresentacao__conteudo__titulo{
     width: 100%;
@@ -242,18 +243,20 @@ ul, ol {
   .apresentacao__conteudo__titulo__curriculo{
     width: 100%;
     font-size: 1.5rem;
-    padding: 10px 0 0 50px;
+    padding: 10px 0 0 9px;
   }
   .apresentacao__conteudo__titulo__objetivo, 
   .apresentacao__conteudo__titulo__formacao, 
   .apresentacao__conteudo__titulo__skills, 
-  .apresentacao__conteudo__profissional, 
   .apresentacao__habilidades__competencias, 
   .apresentacao__conteudo__tecnologias, 
   .apresentacao__conteudo__cursos__certificados, 
   .apresentacao__conteudo__idiomas,
   .post-title {
     font-size: 1rem;
+  }
+  .apresentacao__conteudo__profissional{
+    font-size: 1.5rem;
   }
   .apresentacao__conteudo__texto{
     font-size: var(--font-size-links);
