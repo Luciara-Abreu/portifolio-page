@@ -155,6 +155,7 @@ align-items: center;
 }
 
 /* INICIO DA PÁGINA CURRICULO*/
+
 .apresentacao__Portifolio{
   padding: 2% 15% 1% 5%;
   display: flex;
@@ -170,6 +171,7 @@ align-items: center;
   justify-content: space-between;
   align-items: center; 
 }
+
 .apresentacao__objetivo__formacao__skills,
 .apresentacao__profissional,
 .apresentacao__curricular{ 
@@ -213,7 +215,7 @@ ul, ol {
 @media (max-width:1200px){
   .cabecalho{
     width: 100%;
-    padding: 10%;   
+    padding: 10% 0 10% 0%;   
   }
 
   .apresentacao__menu{
@@ -227,7 +229,7 @@ ul, ol {
   .apresentacao{
     width: 100%;
     flex-direction: column-reverse;   
-    padding: 10% 0 0 10%; 
+    padding: 10% 0 0 0; 
   }
   .apresentacao__conteudo{
     width: 80%;
@@ -235,7 +237,6 @@ ul, ol {
   .apresentacao__conteudo__titulo{
     width: 100%;
     font-size: 1rem;
-    padding: 10% 3% 5% 30%;
   }
   .apresentacao__conteudo__texto{
     font-size: var(--font-size-links);
@@ -261,6 +262,7 @@ ul, ol {
     width: 103%;
     justify-content: center;
     padding: 0px 25px 0 25px;
+    font-size: var(--font-size-links);
   }
 
   .apresentacao__links__subtitulo{
@@ -280,4 +282,7 @@ ul, ol {
   .image__luci{
     padding: 5% 0 5% 0; 
   }
+
+  /*CURRICULO*/
+
 }
