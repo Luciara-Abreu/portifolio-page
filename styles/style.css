@@ -177,7 +177,7 @@ align-items: center;
 .apresentacao__profissional,
 .apresentacao__curricular{ 
   width: 100%;
-  padding: 3% 0% 3% 30%;
+  padding: 3% 0% 3% 0%;
 }
 
 .apresentacao__conteudo__titulo__objetivo,
@@ -212,8 +212,11 @@ ul, ol {
   margin: 0 0 0 10%;
 }
 
+/*//////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////*/
 
-/*USO DE MEDIA QUERY */
+
 @media (max-width:1200px){
   .cabecalho{
     width: 100%;
@@ -271,7 +274,7 @@ ul, ol {
   .apresentacao__profissional,
   .apresentacao__curricular{ 
   width: 100%;
-  padding: 0;
+  padding: 3% 0% 3% 0%;
   margin: 0;
 }
 .apresentacao__links{
