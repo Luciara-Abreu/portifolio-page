@@ -56,6 +56,7 @@ body{
     justify-content: space-between;
     border: solid 1px var(--cor-tercearia); 
     gap: 80px;
+    height: 82vh;
 }
 
 .apresentacao__conteudo{
@@ -216,7 +217,7 @@ ul, ol {
 @media (max-width:1200px){
   .cabecalho{
     width: 100%;
-    padding: 10% 0 10% 0%;   
+    padding: 3% 0 3% 0%;
   }
 
   .apresentacao__menu{
@@ -230,10 +231,12 @@ ul, ol {
   .apresentacao{
     width: 99%;
     flex-direction: column-reverse;   
-    padding: 10% 0 0 0; 
+    padding: 1% 0 0 0;
+    gap:10px;
   }
   .apresentacao__conteudo{
     width: 89%;
+    gap: 9px;
   }
   .apresentacao__conteudo__titulo{
     width: 100%;
@@ -259,7 +262,7 @@ ul, ol {
     font-size: 1.5rem;
   }
   .apresentacao__conteudo__texto{
-    font-size: var(--font-size-links);
+    font-size: 0.8rem;
   }
   .apresentacao__conteudo__inicial{
     flex-direction: column;
@@ -275,7 +278,6 @@ ul, ol {
   width: 100%;
   padding: 10px 0 20px 0;
 }
-
   
   .apresentacao__Portifolio{
     width: 99%;
@@ -298,9 +300,18 @@ ul, ol {
     padding: 10px 0 10px 0;
     font-size: 14px;
   }
-
-  .image__luci{
-    padding: 5% 0 5% 0; 
+ 
+  .apresentacao__image{
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+  }
+  .apresentacao__image__sobre{
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    top: 26px;
   }
 
   /*CURRICULO*/
