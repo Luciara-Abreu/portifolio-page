@@ -302,10 +302,10 @@ ul, ol {
   }
  
   .apresentacao__image{
-    width: 30%;
+    width: 44%;
     border-radius: 50%;
     position: relative;
-    top: 13px;
+    top: 20px;
   }
   .apresentacao__image__sobre{
     width: 30%;
