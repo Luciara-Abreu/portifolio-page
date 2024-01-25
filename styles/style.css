@@ -276,7 +276,8 @@ ul, ol {
     font-size: 15px;
   }
   .ContainerComponentFooter{
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
   }
 
   .image__luci{
