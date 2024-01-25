@@ -300,7 +300,7 @@ ul, ol {
     font-size: 15px;
   }
   .ContainerComponentFooter{
-    padding: 0px 0 14px 0;
+    padding: 11px 0 14px 0;
     font-size: 14px;
   }
  
@@ -310,12 +310,7 @@ ul, ol {
     position: relative;
     top: 20px;
   }
-  .apresentacao__image__sobre{
-    width: 30%;
-    border-radius: 50%;
-    position: relative;
-    top: 26px;
-  }
+ 
 
   /*CURRICULO*/
 
